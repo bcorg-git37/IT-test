@@ -545,6 +545,11 @@
   </footer>
 
   <script>
+    // Logo animation
+    setTimeout(() => {
+      document.getElementById("stage").classList.add("animate");
+    }, 300);
+    
     document.addEventListener('DOMContentLoaded', function() {
       const slides = document.querySelectorAll('.hero-slide');
       const indicators = document.querySelectorAll('.slide-indicator');
